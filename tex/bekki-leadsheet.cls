@@ -58,15 +58,19 @@
     C##*=D*,
     C##-=D-,
     C##m=Dm,
+    C##m*=Dm*,
+    C##m*-=Dm*-,
     C##7=D7,
     C##7*=D7*,
     C##/F#=D/F#,
     Db#=D,
+    Dm/B#=Dm/C,
     D##m=Em,
     D/Gb=D/F#,
     Eb#m=Em,
     Eb#m*=Em*,
     E#=F,
+    E#-=F,
     E#m=Fm,
     E#m*=Fm*,
     F##=G,
@@ -127,6 +131,10 @@
 \provideversetype{chorus2}[name=Chorus 2]
 \provideversetype{interlude1}[name=Interlude 1]
 \provideversetype{interlude2}[name=Interlude 2]
+\provideversetype{part1}[name=Part 1]
+\provideversetype{part2}[name=Part 2]
+\provideversetype{part3}[name=Part 3]
+\provideversetype{part4}[name=Part 4]
 
 \providerobustcmd*\lsenparen[1]{%
   \expandcode{\noexpand\mklsenparen\mklsenparens{\unexpanded{#1}}}%
