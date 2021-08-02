@@ -47,12 +47,15 @@
     Ab#m=Am,
     A##m7=Bm7,
     B#=C,
+    B#*=C*,
     B#-=C-,
+    B#5=C5,
     B#m=Cm,
     B#add9=Cadd9,
     Bb#=B,
     Bb#m7=Bm7,
     B#maj7=Cmaj7,
+    B#maj7*=Cmaj7*,
     B#m6=Cm6,
     C##=D,
     C##*=D*,
@@ -76,10 +79,13 @@
     F##=G,
     F##*=G*,
     F##7=G7,
+    F##5=G5,
     F##/A##*=G/B*,
     F##/B=G/B,
+    G##=A,
     G#b*=G*,
     G#b=G,
+    G##5=A5,
     G##m=Am,
     G##m7=Am7,
     G##m7*=Am7*,
@@ -129,6 +135,7 @@
 \provideversetype*{postchorus*}[name=Postchorus]
 \provideversetype{chorus1}[name=Chorus 1]
 \provideversetype{chorus2}[name=Chorus 2]
+\provideversetype{refrain}[name=Refrain]
 \provideversetype{interlude1}[name=Interlude 1]
 \provideversetype{interlude2}[name=Interlude 2]
 \provideversetype{part1}[name=Part 1]
