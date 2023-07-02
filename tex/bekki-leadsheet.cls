@@ -49,6 +49,7 @@
   A#/G##-=Bb/A-,
   A#-=Bb-,
   A##m7=Bm7,
+  (B#)=(C),
   B#=C,
   B#*=C*,
   B#-=C-,
@@ -110,7 +111,9 @@
   Db#7/F#=D7/F#,
   A#=Bb,
   (F##)=(G),
-  Cadd9=C\textsuperscript{add9}
+  Cadd9=C\textsuperscript{add9},
+  N.B.=N.C.,
+  N.Ab.=N.C.
 }
 
 \cs_generate_variant:Nn \str_set:Nn {Nx}
