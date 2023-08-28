@@ -113,7 +113,8 @@
   (F##)=(G),
   Cadd9=C\textsuperscript{add9},
   N.B.=N.C.,
-  N.Ab.=N.C.
+  N.Ab.=N.C.,
+  N.A.=N.C.,
 }
 
 \cs_generate_variant:Nn \str_set:Nn {Nx}
